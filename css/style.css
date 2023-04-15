@@ -345,4 +345,186 @@ img {
     margin-top: 30px;
     margin-left: 20%;
     color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* ---------------------work */
+.work {
+    padding-top: 100px;
+}
+
+.work-step-flex {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 52px;
+}
+
+.step-flex-item {
+    max-width: 425px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.number-flex {
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 110px;
+    text-transform: uppercase;
+    background: linear-gradient(94.77deg, #48B760 0%, #6BB748 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-right: 10px;
+}
+
+.step-h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+.step-p {
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.work-button {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* ----------credit */
+.credit {
+    padding-top: 100px;
+    background-image: url(../img/image\ 13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.credit-p {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    max-width: 350px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+
+.credit-h1::after {
+    content: url(../img/image\ 8.png);
+    position: absolute;
+    padding-left: 83px;
+    padding-top: 20px;
+}
+
+.credit-banner {
+    margin-top: 30px;
+    min-height: 530px;
+    background-image: url(../img/traktor\ edet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.credit-banner-h1 {
+    position: relative;
+    padding-top: 150px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 58px;
+    color: #333333;
+    max-width: 639px;
+}
+
+.credit-banner-h1 span {
+    background: linear-gradient(94.77deg, #48B760 0%, #6BB748 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.credit-banner-h1::after {
+    content: url(../img/bank\ blank.png);
+    position: absolute;
+    padding-left: 583px;
+    padding-top: 130px;
+}
+
+.details-flex {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+.details-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-p,
+.details-number {
+    padding-top: 30px;
+}
+
+.details-p {
+    max-width: 288px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.details-number {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.details-number:last-child {
+    padding-left: 30px;
+}
+
+.add-info {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BDBDBD;
+    margin-bottom: 50px;
+}
+
+
+.credit-button {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
 }
