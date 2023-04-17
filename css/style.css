@@ -413,6 +413,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding-bottom: 60px;
 }
 
 .credit-p {
@@ -527,4 +528,162 @@ img {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+}
+
+/* ----------------partners */
+.partners {
+    padding: 100px 0 50px;
+}
+
+.partners-p {
+    padding-top: 59px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #828282;
+}
+
+.partners-flex {
+    padding: 40px 0;
+
+}
+
+.partners-flex-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners-button {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* -------------contact */
+.contact {
+    padding-top: 100px;
+}
+
+.contact-flex {
+    padding-top: 40px;
+    display: flex;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    width: 100%;
+    width: 506px;
+    height: 68px;
+    left: 50px;
+    top: 4895px;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 34px;
+    margin-bottom: 16px;
+    color: inherit;
+    outline: none;
+    font: inherit;
+}
+
+.contact-form input:last-of-type {
+    height: 188px;
+}
+
+.contact-form input::placeholder {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.contact-form-email {}
+
+.contact-text-area::placeholder {}
+
+.main-button {}
+
+.contact-button {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.contact-map {
+    padding-left: 50px;
+}
+
+.map-green {
+    position: relative;
+    width: 784px;
+    height: 440px;
+    background: url(../img/Rectangle\ 77.png);
+    border-radius: 34px;
+}
+
+.map-adresse {
+    position: absolute;
+    width: 360px;
+    height: 130px;
+    top: 35%;
+    left: 27%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-side {}
+
+.text-side {
+    padding: 20px;
+}
+
+.map-agrobot {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.map-tel,
+.map-geo {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.map-geo {
+    max-width: 200px;
+    text-align: center;
+}
+
+.map-tel:before {
+    content: url(../img/ic_round-call.png);
+    padding-right: 10px;
+}
+
+.map-geo:before {
+    content: url(../img/Vector.png);
+    padding-right: 10px;
+}
+
+
+.contact-robot {
+    float: right;
+    padding-top: 37px;
 }
