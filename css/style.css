@@ -353,7 +353,7 @@ img {
 
 /* ---------------------work */
 .work {
-    padding-top: 100px;
+    padding: 100px 0 80px;
 }
 
 .work-step-flex {
@@ -566,6 +566,7 @@ img {
 /* -------------contact */
 .contact {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .contact-flex {
@@ -604,12 +605,6 @@ img {
     line-height: 26px;
     color: #BDBDBD;
 }
-
-.contact-form-email {}
-
-.contact-text-area::placeholder {}
-
-.main-button {}
 
 .contact-button {
     color: #fff;
@@ -686,4 +681,70 @@ img {
 .contact-robot {
     float: right;
     padding-top: 37px;
+}
+
+/* ----------------footer */
+.footer {
+    background: #4F4F4F;
+    padding: 50px 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex-logo-p {
+    padding-top: 100px;
+    max-width: 254px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.footer-flex-logo-p span {
+    color: #e5e5e5;
+}
+
+.sitemap-h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.sitemap-flex {
+    display: flex;
+}
+
+.sitemap-flex ul {
+    list-style-type: none;
+    padding: 0;
+    padding-right: 100px;
+}
+
+.sitemap-flex li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+    margin-bottom: 12px;
+}
+
+.sitemap-flex li:hover {
+    color: #BDBDBD;
+}
+
+.footer-flex-socio {
+    margin-right: 400px;
+}
+
+.socio-flex {
+    max-width: 100%;
+}
+
+.socio-flex img {
+    margin-right: 24px;
+    padding-top: 10px;
 }
