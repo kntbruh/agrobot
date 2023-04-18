@@ -30,6 +30,8 @@ h5,
 p {
     margin: 0;
     padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 img {
@@ -747,4 +749,138 @@ img {
 .socio-flex img {
     margin-right: 24px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+    }
+
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .about-flex-left {
+        text-align: center;
+    }
+
+    .about-h1 {
+        font-size: 70px;
+    }
+
+    .about-p {
+        font-size: 14px;
+    }
+
+    .about-p-description {
+        max-width: 300px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-robot-flex {
+        display: none;
+    }
+
+    .flex-right {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first,
+    .second,
+    .third {
+        display: none;
+    }
+
+    .first-block,
+    .second-block,
+    .third-block {
+        padding: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main-button {
+        margin: 0 auto;
+    }
+
+    .products-h1 {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 2px;
+    }
+
+    .products-h1::before {
+        transform: scale(.5);
+    }
+
+    .products-p {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .products-flex {
+        flex-direction: column;
+    }
+
+    .products-flex-item {
+        max-width: 270px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .work-step-flex {
+        flex-direction: column;
+    }
+
+    .credit-h1::after {
+        left: 60px;
+        top: 0px;
+        transform: scale(.5);
+    }
+
+    .credit-p {
+        padding-top: 40px;
+        padding-left: 30px;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .credit-banner {
+        margin: 0;
+        min-height: 200px;
+        background-image: url(../img/image\ 14.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .credit-banner-h1 {
+        font-size: 24px;
+        line-height: 25px;
+        margin: 0 auto;
+        padding-top: 170px;
+
+    }
+
+    .credit-banner-h1::after {
+        top: 0px;
+        left: 0;
+        padding-left: 0;
+        padding-top: 0;
+        transform: scale(.5);
+    }
+
+    .details-flex {
+        flex-direction: column;
+    }
 }
